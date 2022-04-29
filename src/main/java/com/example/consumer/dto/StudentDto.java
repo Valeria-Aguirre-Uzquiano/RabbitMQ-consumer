@@ -1,5 +1,6 @@
 package com.example.consumer.dto;
 
+import com.example.consumer.entity.Student;
 
 public class StudentDto {
     private int studentId;
@@ -10,7 +11,7 @@ public class StudentDto {
     public StudentDto() {
     }
 
-    public StudentDto(StudentDto student) {
+    public StudentDto(Student student) {
         studentId = student.getStudentId();
         name = student.getName();
         lastName = student.getLastName();
